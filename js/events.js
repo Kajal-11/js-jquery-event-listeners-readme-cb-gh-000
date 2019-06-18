@@ -25,10 +25,11 @@ $(document).ready(function(){
   }
   window.submitIt = submitIt;
 
-  function frameIt(){
-    $(document).on('load', function(){
-        $('img').addClass("tasty");
-    });
-  };
+  
 
 });
+function frameIt(){
+  $(document).on('load', function(){
+      $('img').addClass("tasty");
+  });
+};
