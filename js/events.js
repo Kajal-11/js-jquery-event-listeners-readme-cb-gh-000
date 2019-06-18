@@ -19,5 +19,5 @@ $(document).ready(function(){
       alert("Your form is going to be submitted now.");
     });
   }
-  submitIt();
+  window.submitIt = submitIt;
 });
