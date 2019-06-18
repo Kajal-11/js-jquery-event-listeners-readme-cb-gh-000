@@ -30,6 +30,7 @@ $(document).ready(function(){
 });
 function frameIt(){
   $(document).on('load', function(){
-      return $('img').addClass("tasty");
+      $('img').addClass("tasty");
   });
+  return "tasty";
 };
