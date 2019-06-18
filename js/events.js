@@ -18,6 +18,12 @@ $(document).ready(function(){
   }
   window.pressIt = pressIt;
 
+  function frameIt(){
+    $(document).on('load', function(){
+        $(img).style.border = solid;
+    });
+  };
+
   function submitIt(){
     $('form').on("submit", function(){
       alert("Your form is going to be submitted now.");
