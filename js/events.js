@@ -23,7 +23,7 @@ $(document).ready(function(){
         $('img').addClass("tasty");
     });
   };
-  window.frameIt = frameIt;
+  window.frameIt = frameIt();
 
   function submitIt(){
     $('form').on("submit", function(){
