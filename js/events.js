@@ -12,7 +12,7 @@ $(document).ready(function(){
 
   function pressIt(){
     $('document').on('keypress', (event) =>{
-      if(event.key === 'g')
+      if(event.which === 71)
         alert('You pressed G')
     });
   }
