@@ -27,8 +27,7 @@ $(document).ready(function(){
 
   function frameIt(){
     $('img').on('load', function(){
-      alert('hi!');
-      $('img').addClass(tasty);
+      $('img').addClass('tasty');
     });
   };
 window.frameIt = frameIt;
