@@ -8,7 +8,7 @@ $(document).ready(function(){
       alert("Hey!");
     });
   }
-  getIt();
+  window.getIt=getIt;
 
   function frameIt(){
 
