@@ -34,3 +34,4 @@ function frameIt(){
     $('img').addClass(tasty);
   });
 };
+frameIt();
