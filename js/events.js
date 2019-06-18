@@ -23,7 +23,8 @@ $(document).ready(function(){
         $(img).style.border = solid;
     });
   };
-
+  window.frameIt = frameIt;
+  
   function submitIt(){
     $('form').on("submit", function(){
       alert("Your form is going to be submitted now.");
