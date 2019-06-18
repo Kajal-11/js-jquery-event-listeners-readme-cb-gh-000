@@ -20,7 +20,7 @@ $(document).ready(function(){
 
   function frameIt(){
     $(document).on('load', function(){
-        $(img).style.border = solid;
+        img.classname += "tasty";
     });
   };
   window.frameIt = frameIt;
