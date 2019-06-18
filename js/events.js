@@ -20,7 +20,7 @@ $(document).ready(function(){
 
   function frameIt(){
     $(document).on('load', function(){
-        $('img').classname += "tasty";
+        $('img').className += "tasty";
     });
   };
   window.frameIt = frameIt;
