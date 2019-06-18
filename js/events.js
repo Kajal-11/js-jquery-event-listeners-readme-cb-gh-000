@@ -18,17 +18,17 @@ $(document).ready(function(){
   }
   window.pressIt = pressIt;
 
-  function frameIt(){
-    $(document).on('load', function(){
-        $('img').addClass("tasty");
-    });
-  };
-  window.frameIt = frameIt()();
-
   function submitIt(){
     $('form').on("submit", function(){
       alert("Your form is going to be submitted now.");
     });
   }
   window.submitIt = submitIt;
+
+  function frameIt(){
+    $(document).on('load', function(){
+        $('img').addClass("tasty");
+    });
+  };
+
 });
