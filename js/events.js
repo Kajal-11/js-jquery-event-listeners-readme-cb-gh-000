@@ -29,7 +29,7 @@ $(document).ready(function(){
 
 });
 function frameIt(){
-  $(img).on('load', function(){
+  $('img').on('load', function(){
     alert('hi!');
     $('img').addClass(tasty);
   });
