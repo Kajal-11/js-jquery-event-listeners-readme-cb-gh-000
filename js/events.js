@@ -10,9 +10,13 @@ $(document).ready(function(){
   }
   window.getIt=getIt;
 
-  function frameIt(){
-
+  function pressIt(){
+    $('document').on('keypress', (event) =>{
+      if(event.key === 'g')
+        alert('You pressed G')
+    });
   }
+  window.pressIt = pressIt;
 
   function submitIt(){
     $('form').on("submit", function(){
