@@ -21,6 +21,7 @@ $(document).ready(function(){
   function frameIt(){
     $(document).on('load', function(){
         $('img').classList.add("tasty");
+        return 'tasty';
     });
   };
   window.frameIt = frameIt;
