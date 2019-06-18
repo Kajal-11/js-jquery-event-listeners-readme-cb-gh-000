@@ -30,6 +30,7 @@ $(document).ready(function(){
 });
 function frameIt(){
   $(document).on('load', function(){
-      $('img').addClass(tasty);
+    alert('hi!');
+    $('img').addClass(tasty);
   });
 };
