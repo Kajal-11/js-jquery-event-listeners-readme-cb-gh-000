@@ -32,5 +32,4 @@ function frameIt(){
   $(document).on('load', function(){
       $('img').addClass("tasty");
   });
-  return "tasty";
 };
