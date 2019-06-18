@@ -25,13 +25,12 @@ $(document).ready(function(){
   }
   window.submitIt = submitIt;
 
-
-
+  function frameIt(){
+    $('img').on('load', function(){
+      alert('hi!');
+      $('img').addClass(tasty);
+    });
+  };
+window.frameIt = frameIt;
 });
-function frameIt(){
-  $('img').on('load', function(){
-    alert('hi!');
-    $('img').addClass(tasty);
-  });
-};
-frameIt();
+
